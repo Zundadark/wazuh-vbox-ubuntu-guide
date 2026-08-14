@@ -23,6 +23,7 @@ curl -sO  https://packages.wazuh.com/4.x/wazuh-install.sh
 **В конце флага -sO, заглавная буква O, а не цифра 0!**
 
 По окончанию установки, вам выдадут логин и пороль:
+
 ![](installation_finisded.png)
 
 ## ❌ Troubleshooting (поиск неисправностей и их решение)
