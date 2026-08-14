@@ -19,9 +19,22 @@
 ```bash
 curl -sO  https://packages.wazuh.com/4.x/wazuh-install.sh
 ```
-# В конце флага -sO, заглавная буква O, а не цифра 0!
+**В конце флага -sO, заглавная буква O, а не цифра 0!**
 
 ## ❌ Troubleshooting (поиск неисправностей и их решение)
 
 ### Проблема 1. Падения установки на Wazuh Indexer (Watchdog timeout)
 ![Watchdog timeout](Watchdog_timeout.png)
+
+* Решение 1. Выключить ВМ, и выделить ей минимум **4-8гб RAM** и **2-4 ядра CPU**
+* Решение 2. Принудительно увеличить системный таймаут ожидания сервиса до 15 минут одной командой:
+```bash
+sudo mkdir -p /etc/systemd/system/wazuh-indexer.service.d && echo -e "[Service]\nTimeoutStartSec=900" | sudo tee /etc/systemd/system/wazuh-indexer.service.d/override.conf
+```
+После этого перезапустить установку командой:
+```bash
+sudo bash wazuh-install.sh -a
+```
+
+
+
