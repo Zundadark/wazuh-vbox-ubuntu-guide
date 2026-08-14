@@ -36,7 +36,7 @@ sudo bash wazuh-install.sh -a
 
 Вводим полученные данные и попадаем на главную страницу wazuh:
 
-![](wazuh_1)
+![](wazuh_1.png)
 
 
 
