@@ -24,4 +24,4 @@ curl -sO  https://packages.wazuh.com/4.x/wazuh-install.sh
 ## ❌ Troubleshooting (поиск неисправностей и их решение)
 
 ### Проблема 1. Падения установки на Wazuh Indexer (Watchdog timeout)
-![Watchdog timeout](Watchdog timeout.png)
+![Watchdog timeout](Watchdog_timeout.png)
