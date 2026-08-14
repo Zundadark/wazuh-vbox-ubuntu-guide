@@ -24,7 +24,7 @@ curl -sO  https://packages.wazuh.com/4.x/wazuh-install.sh
 
 
 
-### Этап 3. Установка Wazuh
+### Этап 3. Установка и развёртывание Wazuh
 
 Для развёртывание системы используем команду:
 ```bash
@@ -33,6 +33,12 @@ sudo bash wazuh-install.sh -a
 По окончанию установки, вам выдадут логин и пороль, а также адрес главного веб интерфейса:
 
 ![](installation_finished.png)
+
+
+
+
+
+
 
 ## ❌ Troubleshooting (поиск неисправностей и их решение)
 
@@ -48,6 +54,8 @@ sudo mkdir -p /etc/systemd/system/wazuh-indexer.service.d && echo -e "[Service]\
 ```bash
 sudo bash wazuh-install.sh -a
 ```
+
+
 
 
 
