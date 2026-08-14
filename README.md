@@ -24,7 +24,7 @@ curl -sO  https://packages.wazuh.com/4.x/wazuh-install.sh
 
 По окончанию установки, вам выдадут логин и пороль:
 
-![](installation_finisded.png)
+![](installation_finished.png)
 
 ## ❌ Troubleshooting (поиск неисправностей и их решение)
 
