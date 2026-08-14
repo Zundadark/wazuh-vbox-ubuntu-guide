@@ -44,6 +44,8 @@ sudo bash wazuh-install.sh -a
 **Маршрут для нахождения заветной кнопки в GUI:**
 Левое меню -> **Управление серверами** (Server management) -> **Краткое описание конечных точек** (Endpoints Summary). Именно там находится кнопка `Развернуть новый агент` (Deploy new agent).
 
+![](wazuh_4.png)
+
 После генерации команды в конструкторе, запускаем PowerShell от имени администратора на целевом хосте Windows и активируем службу:
 ```powershell
 Start-Service -Name Wazuh
