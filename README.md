@@ -54,7 +54,7 @@ Start-Service -Name Wazuh
 
 ![](wazuh_2.png)
 
-##💡Лайфхак: Удобное управление через Windows Terminal (SSH)
+## 💡Лайфхак: Удобное управление через Windows Terminal (SSH)
 
 Чтобы не работать в багованной консоли VirtualBox, настройте SSH-доступ и управляйте прямо из Windows Terminal:
 
